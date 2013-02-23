@@ -36,7 +36,7 @@
     STAssertNil(NSClassFromString(@"Device"), @"reflection class locading" );
 }
 
-
+// Comment should failed.
 - (void)testTryFailed {
     STAssertEqualObjects(nil, NSStringFromClass([self class]), @"string from class should crash the test" );
 }
