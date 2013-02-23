@@ -37,4 +37,8 @@
 }
 
 
+- (void)testTryFailed {
+    STAssertEqualObjects(nil, NSStringFromClass([self class]), @"string from class should crash the test" );
+}
+
 @end
