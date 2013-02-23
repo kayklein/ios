@@ -10,26 +10,29 @@
 
 @implementation iosTests
 
-- (void)setUp
-{
+- (void)setUp {
     [super setUp];
-    
+
     // Set-up code here.
 }
 
-- (void)tearDown
-{
+- (void)tearDown {
     // Tear-down code here.
-    
+
     [super tearDown];
 }
 
-- (void)testEquals{
+- (void)testEquals {
     STAssertEqualObjects(@"value", @"value", @"unit test string compare" );
 }
 
-- (void)testTrue{
-    STAssertTrue(1+1 == 2, @"assert true");
+- (void)testTrue {
+    STAssertTrue(1 + 1 == 2, @"assert true");
+}
+
+
+- (void)testSome {
+    STAssertNil(NSClassFromString(@"Device"), @"reflection class locading" );
 }
 
 
