@@ -359,6 +359,7 @@
 		99E8DDED16D858BC0037CE0E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios/ios-Prefix.pch";
 				INFOPLIST_FILE = "ios/ios-Info.plist";
@@ -370,6 +371,7 @@
 		99E8DDEE16D858BC0037CE0E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios/ios-Prefix.pch";
 				INFOPLIST_FILE = "ios/ios-Info.plist";
